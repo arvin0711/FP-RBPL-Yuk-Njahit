@@ -187,6 +187,11 @@
             height: 100vh;
             /* Mengatur tinggi div agar gambar berada di tengah vertikal */
         }
+
+        .text-center img {
+            margin-top: 70px;
+            height: 300px;
+        }
     </style>
 
 </head>
