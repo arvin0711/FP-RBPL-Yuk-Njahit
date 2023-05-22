@@ -19,7 +19,7 @@
 
         .container {
             max-width: 65%;
-            max-height: 45%;
+            max-height: 65%;
             margin-top: -3%;
 
             background-color: #ffffff;
@@ -38,8 +38,6 @@
 
         }
 
-
-
         .form-group label {
             font-weight: bold;
             display: block;
@@ -54,10 +52,6 @@
             box-sizing: border-box;
             margin-left: -60%;
         }
-
-
-
-
 
         .text-center {
             margin-top: -39%;
@@ -93,8 +87,6 @@
             width: 100%;
 
         }
-
-
 
         ul {
             text-align: center;
@@ -135,12 +127,17 @@
             padding-left: 120px;
             color: #ffffff;
         }
+
+        .signup-message {
+            color: #FF0000;
+            margin-top: 2px;
+            text-align: center;
+            margin-right: 55%;
+        }
     </style>
 </head>
 
 <body>
-
-
     <section>
         <svg viewBox="0 0 500 200">
             <path d="M 0 50 C 150 150 300 0 500 80 L 500 0 L 0 0" fill="#fff"></path>
@@ -158,12 +155,8 @@
 
 
 
-
-
     <!-- bagian konten -->
     @yield('konten')
-
-
 
 </body>
 
