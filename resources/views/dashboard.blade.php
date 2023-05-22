@@ -60,6 +60,7 @@
              object-fit: contain;
              height: 200px;
              width: 145px;
+             padding-left: 15%;
 
 
          }
