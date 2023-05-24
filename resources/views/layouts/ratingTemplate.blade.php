@@ -1,11 +1,10 @@
-<!--Header yang berisi total harga-->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Order - Online Store</title>
+    <title>@yield('title')</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZEZv3v1qz7r2KLrGJw7O8" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/e40f85b6c6.js" crossorigin="anonymous"></script>
@@ -43,6 +42,70 @@
             margin: auto;
             padding: 20px;
         }
+
+
+
+
+
+        .order-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            position: relative;
+            height: 175px;
+
+        }
+
+        .order-item .fa-x {
+            float: right;
+        }
+
+
+        .order-item .order-produk {
+            font-size: 35px;
+            font-weight: semi-bold;
+            margin-bottom: 2px;
+        }
+
+        .order-item img {
+            max-width: 100%;
+            max-height: 200px;
+            object-fit: contain;
+            height: 120px;
+
+        }
+
+
+        .order-item .order-status {
+            font-size: 15px;
+            font-weight: normal;
+            margin-bottom: 2px;
+            font-style: italic;
+        }
+
+
+
+
+
+        .footer {
+            padding-top: 5px;
+
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 8%;
+            background-color: #f2ebeb;
+            text-align: center;
+
+        }
+
+        .footer .row img {
+            height: 25px;
+            width: auto;
+        }
+
 
 
         .jumbotron {
@@ -85,6 +148,36 @@
             color: black;
             font-weight: semi-bold;
         }
+
+        .rating {
+            color: #f2b01e;
+            /* Warna bintang aktif */
+            font-size: 24px;
+            /* Ukuran bintang */
+        }
+
+        .rating i {
+            cursor: pointer;
+        }
+
+        .rating i:hover,
+        .rating i:hover~i {
+            color: #f2b01e;
+            /* Warna bintang saat dihover */
+        }
+
+        #confirm-button {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+
+            margin: 20px;
+        }
+
+        #confirm-button button {
+            font-size: 15px;
+            padding: 2px 25px 2px 25px;
+        }
     </style>
 </head>
 
@@ -92,7 +185,7 @@
     <header>
 
         <div class="jumbotron">
-            <h3>Rating My Order</h3>
+            <h3> @yield('judul halaman') </h3>
 
         </div>
         <div class="order-total">
@@ -107,7 +200,43 @@
 
     <!-- bagian konten blog -->
 
+    @yield('konten')
 
+
+
+    <!-- bagian footer -->
+
+
+    <div class="footer">
+
+
+
+        <div class="row">
+            <div class="col-md">
+                <i class="fas fa-home"></i>
+                <br>
+                <span>Home</span>
+            </div>
+            <div class="col-md">
+                <i class="fas fa-shopping-cart"></i>
+                <br>
+                <span>Cart</span>
+            </div>
+            <div class="col-md">
+                <i class="fas fa-sharp fa-regular fa-receipt"></i>
+                <br>
+                <span>My Order</span>
+            </div>
+            <div class="col-md">
+                <img src="{{ asset('image/account.png') }}" alt="My Account">
+                <br>
+                <span>My Account</span>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
 </body>
 
 </html>

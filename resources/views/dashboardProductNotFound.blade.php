@@ -1,5 +1,5 @@
 @extends('layouts.dashoardTemplate')
-
+@section('title', 'Search Not Found')
 @section('konten')
     <br>
     <br>

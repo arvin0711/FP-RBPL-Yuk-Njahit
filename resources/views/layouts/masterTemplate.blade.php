@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Order - Online Store</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZEZv3v1qz7r2KLrGJw7O8" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/e40f85b6c6.js" crossorigin="anonymous"></script>
@@ -94,6 +94,24 @@
             padding: 8px;
             width: 15%;
 
+        }
+
+        .form-container {
+            width: 50%;
+            background-color: #f2ebeb;
+            margin-top: -520px;
+            margin-left: 25%;
+            height: 350px;
+            /* Mengatur padding atas untuk mendekatkan form dengan gambar */
+        }
+
+        .form-container label {
+            font-weight: bold;
+        }
+
+        .form-container .form-group {
+            padding: 20px;
+            padding-bottom: 2px;
         }
     </style>
 </head>

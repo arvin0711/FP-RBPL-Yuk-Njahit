@@ -1,4 +1,5 @@
 @extends('layouts.dashoardTemplate')
+@section('title', 'Dashboard')
 
 @section('konten')
     <div class="order-container">

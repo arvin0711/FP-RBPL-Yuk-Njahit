@@ -1,5 +1,6 @@
 @extends('layouts.masterTemplate')
-
+@section('title', 'Detail Baju Error')
+@section('judul halaman', 'Detail Baju Error')
 @include('partial.header')
 
 @section('konten')

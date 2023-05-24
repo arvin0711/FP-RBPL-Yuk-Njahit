@@ -1,70 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
+   <!-- Footer Tombol Add To Cart -->
+   <!DOCTYPE html>
+   <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Order - Online Store</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZEZv3v1qz7r2KLrGJw7O8" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/e40f85b6c6.js" crossorigin="anonymous"></script>
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>My Order - Online Store</title>
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+           integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZEZv3v1qz7r2KLrGJw7O8" crossorigin="anonymous">
+       <script src="https://kit.fontawesome.com/e40f85b6c6.js" crossorigin="anonymous"></script>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+       <!-- Latest compiled and minified CSS -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+       <!-- jQuery library -->
+       <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
 
-    <!-- Popper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+       <!-- Popper JS -->
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <style>
-        /* Custom CSS */
+       <!-- Latest compiled JavaScript -->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+       <style>
+           /* Custom CSS */
 
-        #checkout-button {
-            position: fixed;
-            bottom: 27px;
-            left: 50%;
-            transform: translate(-50%, 50%);
-        }
+           #checkout-button {
+               position: fixed;
+               bottom: 27px;
+               left: 50%;
+               transform: translate(-50%, 50%);
+           }
 
-        #checkout-button button {
-            font-size: 15px;
-            padding: 1px 1px;
-            padding-right: 120px;
-            padding-left: 120px;
-        }
+           #checkout-button button {
+               font-size: 15px;
+               padding: 1px 1px;
+               padding-right: 120px;
+               padding-left: 120px;
+           }
 
 
-        .footer {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            height: 7%;
-            background-color: #f2ebeb;
-            text-align: center;
+           .footer {
+               padding-top: 12px;
+               padding-bottom: 12px;
+               position: fixed;
+               left: 0;
+               bottom: 0;
+               width: 100%;
+               height: 7%;
+               background-color: #f2ebeb;
+               text-align: center;
 
-        }
-    </style>
-</head>
+           }
+       </style>
+   </head>
 
-<body>
+   <body>
 
-    <!-- bagian footer -->
+       <!-- bagian footer -->
 
-    <div class="footer">
-        <div class="row">
-            <div id="checkout-button">
-                <button type="button" class="btn btn-danger btn-lg" style="float:right">Add to Cart</button>
-            </div>
-        </div>
-    </div>
-    </div>
-</body>
+       <div class="footer">
+           <div class="row">
+               <div id="checkout-button">
+                   <button type="button" class="btn btn-danger btn-lg" style="float:right">Add to Cart</button>
+               </div>
+           </div>
+       </div>
+       </div>
+   </body>
 
-</html>
+   </html>
