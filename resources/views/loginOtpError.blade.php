@@ -1,7 +1,7 @@
 @extends('layouts.loginTemplate')
 
 
-
+@section('title', 'OTP Error')
 @section('konten')
     <div class="container">
 

@@ -40,13 +40,11 @@
                 <div class="modal fade" id="myModal" style="margin-top:15%">
                     <div class="modal-dialog">
                         <div class="modal-content">
-
                             <!-- Modal Header -->
                             <div class="modal-header">
                                 <h4 class="modal-title">upload file here</h4>
                                 <button type="button" class="close" data-dismiss="modal">×</button>
                             </div>
-
                             <!-- Modal body -->
                             <div class="modal-body">
                                 <input type="file" id="myfile" name="myfile"><br><br>
@@ -54,23 +52,13 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div style="margin-top:5px">
                     <button type="button" class="btn btn-primary" style="margin-top:1%;padding: 5px 6.5% 0.5% 6.5%">Detail
                         Ukuran</button>
                 </div>
-
-
-
             </div>
-
-
-
         </div>
-
-
-
     </div>
 @endsection
 @include('partial.footer2')

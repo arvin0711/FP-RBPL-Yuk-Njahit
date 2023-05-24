@@ -1,4 +1,5 @@
 @extends('layouts.loginTemplate')
+@section('title', 'Sign Up')
 
 @section('konten')
     <div class="container">

@@ -1,5 +1,6 @@
 @extends('layouts.loginTemplate')
 
+@section('title', 'Sign Up OTP')
 @section('konten')
     <div class="container">
         <div class="row">

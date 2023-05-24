@@ -22,15 +22,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <style>
         /* Custom CSS */
-
-        .jumbotron {
-            padding: 5px;
-            background-color: #E01515;
-            font-size: 5px;
-            color: white;
-            text-align: center;
-
-        }
     </style>
 </head>
 

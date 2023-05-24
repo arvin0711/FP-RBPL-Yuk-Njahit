@@ -5,6 +5,7 @@
         margin-right: -30PX;
     }
 </style>
+@section('title', 'Sign In Error')
 
 @section('konten')
     <div class="container">
