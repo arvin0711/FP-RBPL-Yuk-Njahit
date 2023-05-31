@@ -31,6 +31,27 @@
 
         </div>
 
+        <div class="order-item">
+            <h6><i class="fa-solid fa-receipt"></i> Purchased Items</h6>
+            <i class="fa-solid fa-x"></i>
+            <img src="{{ asset('image/batik.jpg') }}" class="rounded" class="img-fluid" style="float:left">
+            <div class="order-produk">Batik</div>
+            <div class="order-status">Rp. 100.000</div>
+
+        </div>
+
+        <div class="order-item">
+            <h6><i class="fa-solid fa-receipt"></i> Purchased Items</h6>
+            <i class="fa-solid fa-x"></i>
+            <img src="{{ asset('image/batik.jpg') }}" class="rounded" class="img-fluid" style="float:left">
+            <div class="order-produk">Batik</div>
+            <div class="order-status">Rp. 100.000</div>
+
+        </div>
+
+
+
+
         <div class="order-item 2" style="height:37%;">
             <h6><i class="fa-regular fa-credit-card"></i> Payment Method</h6>
             <div class="row">
@@ -60,13 +81,17 @@
             <p>Total Price <span>Rp.100.000</span></p>
 
         </div>
-        <div class="pay-container"style="margin-top:1.5%">
-            <div id="confirm-button">
-                <button type="button" class="btn btn-danger btn-lg" style="float:right"><i
-                        class="fa-sharp fa-regular fa-circle-check"></i>
-                    Pay</button>
-            </div>
+    </div>
 
+    <div class="order-total" style="margin-top: 3.2%">
+        <h6>Total Price </h6>
+        <div class="order-harga">Rp. 100.000</div>
+    </div>
+    <div class="pay-container" style="margin-top:-6.1%">
+        <div id="confirm-button">
+            <button type="button" class="btn btn-danger btn-lg" style="float:right"><i
+                    class="fa-sharp fa-regular fa-circle-check"></i>
+                Pay</button>
         </div>
 
     </div>

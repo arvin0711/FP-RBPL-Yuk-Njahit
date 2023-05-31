@@ -10,6 +10,21 @@
             <div class="order-status">Rp. 100.000</div>
         </div>
         <div class="order-item">
+            <h6><i class="fa-solid fa-receipt"></i> Purchased Items</h6>
+            <i class="fa-solid fa-x"></i>
+            <img src="{{ asset('image/batik.jpg') }}" class="rounded" class="img-fluid" style="float:left">
+            <div class="order-produk">Batik</div>
+            <div class="order-status">Rp. 100.000</div>
+        </div>
+        <div class="order-item">
+            <h6><i class="fa-solid fa-receipt"></i> Purchased Items</h6>
+            <i class="fa-solid fa-x"></i>
+            <img src="{{ asset('image/batik.jpg') }}" class="rounded" class="img-fluid" style="float:left">
+            <div class="order-produk">Batik</div>
+            <div class="order-status">Rp. 100.000</div>
+        </div>
+
+        <div class="order-item">
             <h6><i class="fa-sharp fa-solid fa-truck"></i> Shipping Address</h6>
             <textarea class="form-control" rows="3" id="comment">Shipping Address</textarea>
         </div>

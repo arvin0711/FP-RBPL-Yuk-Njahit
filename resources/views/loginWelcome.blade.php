@@ -1,12 +1,12 @@
 @extends('layouts.templateKosong')
-@section('title', 'Welcome')
+
 <style>
     body {
         overflow: hidden;
         background-color: #ffffff;
     }
 </style>
-
+@section('title', 'Welcome')
 @section('konten')
     <div class="container">
         <div class="text-center">

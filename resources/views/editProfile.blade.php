@@ -72,5 +72,6 @@
 
         </form>
     </div>
+    </div>
 @endsection
 @include('partial.footer')

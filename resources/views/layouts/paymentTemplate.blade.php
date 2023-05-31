@@ -50,7 +50,8 @@
 
         .pay-container {
             max-width: 100%;
-            margin-top: auto;
+            margin-top: -1%;
+            margin-bottom: 2%;
             padding: 20px;
 
         }
@@ -153,8 +154,8 @@
             padding: 2px;
             background-color: #e28b8b;
             color: black;
-            margin-top: 0px;
-            position: absolute;
+            margin-top: -2%;
+            position: relative;
             bottom: 10%;
             left: 0;
             right: 0;
@@ -241,10 +242,7 @@
             <h3>Payment</h3>
 
         </div>
-        <div class="order-total">
-            <h6>Total Price </h6>
-            <div class="order-harga">Rp. 100.000</div>
-        </div>
+
 
 
 
