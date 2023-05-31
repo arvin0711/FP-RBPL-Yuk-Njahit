@@ -1,5 +1,5 @@
 @extends('layouts.paymentTemplate')
-
+@section('title', 'Payment')
 @section('konten')
     <div class="order-container">
         <div class="order-item">

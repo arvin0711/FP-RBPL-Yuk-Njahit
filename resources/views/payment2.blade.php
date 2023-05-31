@@ -17,6 +17,7 @@
         margin-top: -20px;
     }
 </style>
+@section('title', 'Payment 2')
 
 @section('konten')
     <div class="order-container">
